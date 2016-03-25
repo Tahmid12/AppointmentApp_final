@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Appoinmnet Activity!</string>
+    <string name="app_name">Appoinment</string>
+    <string name="from_text">From:</string>
+	<string name="original_hint">Enter text to
+	translate</string>
+	<string name="to_text">To:</string>
+	<string name="translation_error">(Translation
+	error)</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <CalendarView
+        android:id="@+id/calendarView1"
+        android:layout_width="249dp"
+        android:layout_height="251dp"
+        android:layout_marginBottom="50dp" />
+	<LinearLayout android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:layout_height="wrap_content" android:id="@+id/buttonCreate" android:text="Create" android:layout_weight="1" android:layout_width="fill_parent"></Button>
+        <Button android:layout_height="wrap_content" android:id="@+id/buttonView" android:text="View/Edit" android:layout_weight="1" android:layout_width="fill_parent"></Button>
+        
+        
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:layout_height="wrap_content" android:id="@+id/buttonDelete" android:text="Delete" android:layout_weight="1" android:layout_width="fill_parent"></Button>
+        <Button android:layout_height="wrap_content" android:id="@+id/buttonMove" android:text="Move" android:layout_weight="1" android:layout_width="fill_parent"></Button>
+        
+       
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:layout_height="wrap_content" android:id="@+id/buttonSearch" android:text="Search" android:layout_weight="1" android:layout_width="fill_parent"></Button>
+        <Button android:layout_height="wrap_content" android:id="@+id/buttonTranslate" android:text="Translate" android:layout_weight="1" android:layout_width="fill_parent"></Button>
+        
+        
+    </LinearLayout>
+</LinearLayout>
